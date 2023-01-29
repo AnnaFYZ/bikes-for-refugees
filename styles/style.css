@@ -17,8 +17,7 @@ body {
   margin: 0;
 }
 
-body,
-button {
+body {
   font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
   color: var(--grey-dark);
   font-size: 1rem;
@@ -93,9 +92,20 @@ header {
 }
 
 
-/* Buttons */
+Button {
+  background-color: #c05326;
+  color: #e4e4e4;
+  /* font-family: "Source Sans Pro"; */
+  font-style: oblique;
+  font-weight: 600;
+  font-size: 1em;
+  padding: 5px 10px 5px 10px;
+  border-radius: 8px;
 
-  /* INSERT BUTTON STYLES HERE */
+
+}
+
+  
 
 
 /* Content */
