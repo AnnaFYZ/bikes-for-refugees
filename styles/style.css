@@ -109,7 +109,8 @@ Button {
 
 main {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
+  align-content: space-between;
 }
 
 /* Alert */
@@ -173,7 +174,10 @@ main {
 
 article {
   margin-bottom: 1rem;
-}
+  border: 2px solid var(--grey-light);
+  border-radius: 5px;
+  padding: 1em;
+  }
 
 .article__title {
   margin-bottom: 0.5rem;
@@ -194,6 +198,7 @@ article {
 .article__thumbnail {
   object-fit: contain;
   width: 5rem;
+  margin-right: 1rem;
 }
 
 .article__read-more {
@@ -212,9 +217,13 @@ article {
   text-decoration: underline;
 }
 
+.facebook-log {
+  align-self: flex-end;
+}
 .fa {
   margin-right: 0.5rem;
   color: var(--orange-dark);
+  
 }
 
 .facebook-link {
@@ -227,6 +236,13 @@ article {
   display: flex;
   flex-direction: column;
   min-width: 350px;
+  margin-left: 1.5rem;
+  max-width: 350px;
+}
+.sidebar article {
+  display: flex;
+  padding: 0 05.em 0 0.5em;
+  align-content: space-between;
 }
 
 /* Footer */
